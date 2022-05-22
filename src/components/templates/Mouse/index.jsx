@@ -1,10 +1,11 @@
 import React from 'react'
+import { Container } from './styles'
 
 export const Mouse = () => {
     return (
-        <div>
+        <Container>
             <h1>Move your mouse around!</h1>
             <p>The current position is:</p>
-        </div>
+        </Container>
     )
 }
