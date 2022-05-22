@@ -1,6 +1,8 @@
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
-
+import React from 'react';
+import { createRoot } from 'react-dom/client';
 import { Mouse } from './components/templates';
 
-ReactDOM.render(<Mouse />, document.body)
+const container = document.getElementById('app');
+const root = createRoot(container);
+
+root.render(<Mouse />);
